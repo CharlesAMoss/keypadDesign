@@ -1,7 +1,9 @@
-This repo is me working my way thourgh Ben Frain's Sass and Compass for Designers.
+##This repo is...
 
-All hail Ben Frain and Packt Publishing!
+ ...me working my way thourgh Ben Frain's Sass and Compass for Designers.
 
-More info onthe book here.
+**All hail Ben Frain and Packt Publishing!**
+
+More info on the book here.
 
 http://benfrain.com/book-sass-and-compass-for-designers/

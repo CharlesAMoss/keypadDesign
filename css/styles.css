@@ -1,3 +1,30 @@
+/* line 1, ../sass/partials/_base.scss */
+body { font-size: 1em; line-height: 1.4; }
+
+/* line 5, ../sass/partials/_base.scss */
+::-moz-selection { background: red; text-shadow: none; }
+
+/* line 9, ../sass/partials/_base.scss */
+::selection { background: red; text-shadow: none; }
+
+/* line 1, ../sass/partials/_layout.scss */
+* { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+/* line 7, ../sass/partials/_layout.scss */
+body { max-width: 1200px; margin: auto; }
+
+/* line 11, ../sass/partials/_layout.scss */
+header[role="banner"], footer[role="contentinfo"] { width: 100%; display: block; }
+
+/* line 15, ../sass/partials/_layout.scss */
+nav[role="navigation"] { width: 25%; float: left; }
+
+/* line 19, ../sass/partials/_layout.scss */
+.main-content { width: 70%; float: right; }
+
+/* line 23, ../sass/partials/_layout.scss */
+footer[role="contentinfo"] { clear: both; }
+
 /* line 55, ../sass/partials/_normalize.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary { display: block; }
 
