@@ -74,7 +74,7 @@ li:hover, li:focus {
         background-color:darken($bodyColor4,4%); 
     }
 li:active {
-  box-shadow: 1px 0px 1px rgba(000, 000, 000, 0.4);
+  box-shadow: 1px 0 1px rgba(000, 000, 000, 0.4);
   @include transform(translate(3px, 3px));
 }
 li:after {

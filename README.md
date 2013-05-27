@@ -12,6 +12,6 @@ http://jsfiddle.net/joshnh/D6u3X/
 
 http://codepen.io/chriscoyier/pen/wIDzC
 
-**demo:**
+**demo here:**
 
 http://codepen.io/CharlesAMoss/pen/gBKCH

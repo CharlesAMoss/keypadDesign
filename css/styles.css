@@ -20,7 +20,7 @@ header h2 { color: #3a3026; font-size: 2em; margin-bottom: 10px; font-style: ita
 li:hover, li:focus { background-color: #3d3329; }
 
 /* line 76, ../sass/partials/_keypad.scss */
-li:active { box-shadow: 1px 0px 1px rgba(0, 0, 0, 0.4); -webkit-transform: translate(3px, 3px); -moz-transform: translate(3px, 3px); -ms-transform: translate(3px, 3px); -o-transform: translate(3px, 3px); transform: translate(3px, 3px); }
+li:active { box-shadow: 1px 0 1px rgba(0, 0, 0, 0.4); -webkit-transform: translate(3px, 3px); -moz-transform: translate(3px, 3px); -ms-transform: translate(3px, 3px); -o-transform: translate(3px, 3px); transform: translate(3px, 3px); }
 
 /* line 80, ../sass/partials/_keypad.scss */
 li:after { content: ""; position: absolute; top: 0; left: 0; right: -5px; bottom: -5px; }
