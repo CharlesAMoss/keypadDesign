@@ -8,3 +8,6 @@ http://dribbble.com/shots/549706-Keyboard-shortcuts?list=users
 
 http://jsfiddle.net/joshnh/D6u3X/
 
+#css-tricks
+
+http://codepen.io/chriscoyier/pen/wIDzC
