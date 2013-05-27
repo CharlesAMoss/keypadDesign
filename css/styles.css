@@ -1,3 +1,18 @@
+/* line 8, ../sass/partials/_keypad.scss */
+body { text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.2); background-color: #5c4c3e; font-family: Futura, "Trebuchet MS", Arial, sans-serif; padding: 100px; }
+
+/* line 18, ../sass/partials/_keypad.scss */
+header h1 { color: #bde151; font-size: 3em; font-weight: lighter; letter-spacing: 5px; margin-left: -40px; }
+/* line 25, ../sass/partials/_keypad.scss */
+header h2 { color: #3a3026; font-size: 2em; margin-bottom: 10px; font-style: italic; font-weight: lighter; font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif; }
+
+/* line 35, ../sass/partials/_keypad.scss */
+.pad { padding: 0 10px; float: left; border: 1px solid rgba(0, 0, 0, 0.15); border-radius: 10px; box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.2), inset 1px 1px 1px rgba(255, 255, 255, 0.2); }
+/* line 43, ../sass/partials/_keypad.scss */
+.pad ul { float: left; list-style: none; padding: 0; margin: 0; }
+/* line 49, ../sass/partials/_keypad.scss */
+.pad li { text-align: center; color: #fff; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2); background-color: #493d31; padding: 20px 25px; border: 1px solid rgba(0, 0, 0, 0.15); border-radius: 10px; margin: 20px 10px 20px 10px; box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6), inset 1px 1px 1px rgba(255, 255, 255, 0.2); }
+
 /* line 55, ../sass/partials/_normalize.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary { display: block; }
 
@@ -11,7 +26,7 @@ audio:not([controls]) { display: none; height: 0; }
 [hidden] { display: none; }
 
 /* line 94, ../sass/partials/_normalize.scss */
-html { font-size: 100%; background: white; color: black; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 
 /* line 110, ../sass/partials/_normalize.scss */
 html, button, input, select, textarea { font-family: sans-serif; }
