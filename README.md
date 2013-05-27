@@ -1,10 +1,10 @@
 ###inspiration and resources
 
-##lea Verou
+##Lea Verou
 
 http://dribbble.com/shots/549706-Keyboard-shortcuts?list=users
 
-#joshua hibbert
+#Joshua Hibbert
 
 http://jsfiddle.net/joshnh/D6u3X/
 
