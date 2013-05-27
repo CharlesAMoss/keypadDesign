@@ -1,0 +1,61 @@
+$bodyColor1:#bde151;// h1 green 
+$bodyColor2:#5c4c3e; // body brown
+$bodyColor3:#3a3026; // h2 drk brown
+$bodyColor4:#493d31; // key drkr brown
+$bodyColor5:#4c3f33; // border brown
+$bodyColor6:#3e342b; // key top brown
+
+body {
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.2);
+    background-color: $bodyColor2;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    padding: 100px;
+
+}
+
+
+header {
+    h1 {
+        color: $bodyColor1;
+        font-size: 3em;
+        font-weight: lighter;
+        letter-spacing: 5px;
+        margin-left: -40px;
+    }
+    h2 {
+       color: $bodyColor3;
+       font-size: 2em;
+       margin-bottom: 10px; 
+       font-style:italic;
+       font-weight: lighter;
+       font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;  
+    }
+
+}
+.pad {
+    padding: 0 10px;
+    float: left;
+    border: 1px solid hsla(0,0%,0%,.15);
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px hsla(0,0%,100%,.2),
+                inset 1px 1px 1px hsla(0,0%,100%,.2);
+    
+    ul {
+        float: left;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    li {
+        text-align: center;
+        color: #fff;
+        text-shadow: 1px 1px 1px rgba(000, 000, 000, 0.2);
+        background-color:$bodyColor4 ;
+        padding: 20px 25px;
+        border: 1px solid hsla(0,0%,0%,.15);
+        border-radius: 10px;
+        margin:20px 10px 20px 10px;
+        box-shadow: 4px 4px 4px rgba(000, 000, 000, 0.6),
+                inset 1px 1px 1px hsla(0,0%,100%,.2);
+    } 
+}
