@@ -1,4 +1,4 @@
-$bodyColor1:#bde151;// h1 green 
+$bodyColor1:#bde151; // h1 green 
 $bodyColor2:#5c4c3e; // body brown
 $bodyColor3:#3a3026; // h2 drk brown
 $bodyColor4:#493d31; // key drkr brown
@@ -47,55 +47,43 @@ header {
         margin: 0;
     }
     li {
-        text-align: center;
-        color: #fff;
-        text-shadow: 1px 1px 1px rgba(000, 000, 000, 0.2);
-        background-color:$bodyColor4 ;
-        padding: 20px 25px;
         border: 1px solid hsla(0,0%,0%,.15);
         border-radius: 10px;
-        margin:20px 10px 20px 10px;
+        text-align: center;
+        background-color:$bodyColor4 ;
         box-shadow: 4px 4px 4px rgba(000, 000, 000, 0.6),
                 inset 1px 1px 1px hsla(0,0%,100%,.2);
-    } 
+        color: #fff;
+        white-space: nowrap;
+        padding: 20px 25px;
+        text-shadow: 1px 1px 1px rgba(000, 000, 000, 0.2);
+        margin:20px 10px 20px 10px;
+        position: relative;   
+     
+    }
 }
-
-button {
-  border: 0;
-  border-radius: 0;
-  outline: 0;
-  background: #4e68c7;
-  box-shadow: 1px 0px 1px #203891,0px 1px 1px #3852b1,2px 1px 1px #203891,1px 2px 1px #3852b1,3px 2px 1px #203891,2px 3px 1px #3852b1,4px 3px 1px #203891,3px 4px 1px #3852b1,5px 4px 1px #203891,4px 5px 1px #3852b1,6px 5px 1px #203891;
-  color: white;
-  white-space: nowrap;
-  padding: 9px 16px;
-  position: relative;
-}
-
-button:hover, button:focus {
-  background: #3d57b4;
-}
-
-button:active {
-  box-shadow: 1px 0px 1px #203891,0px 1px 1px #3852b1,2px 1px 1px #203891,1px 2px 1px #3852b1,3px 2px 1px #203891;
+li:hover, li:focus {
+        background-color:darken($bodyColor4,4%); 
+    }
+li:active {
+  box-shadow: 1px 0px 1px rgba(000, 000, 000, 0.4);
   @include transform(translate(3px, 3px));
 }
-
-button:after {
+li:after {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
   right: -5px;
   bottom: -5px;
-  outline: 1px solid red;
 }
-button:active:after {
+li:active:after {
   top: -3px;
   left: -3px;
   right: -2px;
   bottom: -2px;
 }
+
 
 
 
