@@ -1,20 +1,9 @@
-<!doctype html>
-<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
-<head>
-  <meta charset="utf-8">
-  <title></title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width">
-  <link rel="stylesheet" href="css/styles.css">
-
-</head>
-<body>
-  <header>
-    <h1>FYeah</h1>
-    <h2><svg version="1.1"
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+]>
+<svg version="1.1"
    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
    x="0px" y="0px" width="27px" height="27px" viewBox="-6 -4 27 27" enable-background="new -2.917 -1.75 27 27"
    xml:space="preserve">
@@ -32,36 +21,3 @@
   C11.231,4.391,11.12,4.123,11.12,3.8c0-0.291,0.115-0.552,0.345-0.782s0.498-0.345,0.805-0.345c0.307,0,0.575,0.111,0.805,0.333
   c0.23,0.223,0.345,0.487,0.345,0.793C13.42,4.123,13.309,4.391,13.086,4.605z"/>
 </svg>
-Push Them Buttons</h2>
-  </header>
-  <div class="pad">
-    <ul>
-      <li>1</li>
-      <li>2</li>
-    </ul>  
-    <ul>
-      <li>&uarr;</li>
-      <li>5</li>
-    </ul> 
-    <ul>
-      <li>6</li>
-      <li>7</li>
-    </ul>  
-    <ul>
-      <li>8</li>
-      <li>9</li>
-    </ul> 
-  </div>
-  <div role="main">
-
-  </div>
-  <footer>
-
-  </footer>
-
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
-
-</body>
-</html>
-
