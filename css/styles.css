@@ -15,18 +15,14 @@ header h2 { color: #3a3026; font-size: 2em; margin-bottom: 10px; font-style: ita
 .pad ul { float: left; list-style: none; padding: 0; margin: 0; }
 /* line 57, ../sass/partials/_keypad.scss */
 .pad li { border: 1px solid rgba(0, 0, 0, 0.15); border-radius: 10px; text-align: center; background-color: #493d31; box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6), inset 1px 1px 1px rgba(255, 255, 255, 0.2); color: #fff; white-space: nowrap; padding: 20px 25px; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2); margin: 20px 10px 20px 10px; position: relative; }
-
+/* line 70, ../sass/partials/_keypad.scss */
+.pad li:hover, .pad li:focus { background-color: #3d3329; }
 /* line 73, ../sass/partials/_keypad.scss */
-li:hover, li:focus { background-color: #3d3329; }
-
-/* line 76, ../sass/partials/_keypad.scss */
-li:active { box-shadow: 1px 0 1px rgba(0, 0, 0, 0.4); -webkit-transform: translate(3px, 3px); -moz-transform: translate(3px, 3px); -ms-transform: translate(3px, 3px); -o-transform: translate(3px, 3px); transform: translate(3px, 3px); }
-
-/* line 80, ../sass/partials/_keypad.scss */
-li:after { content: ""; position: absolute; top: 0; left: 0; right: -5px; bottom: -5px; }
-
-/* line 88, ../sass/partials/_keypad.scss */
-li:active:after { top: -3px; left: -3px; right: -2px; bottom: -2px; }
+.pad li:active { box-shadow: 1px 0 1px rgba(0, 0, 0, 0.4); -webkit-transform: translate(3px, 3px); -moz-transform: translate(3px, 3px); -ms-transform: translate(3px, 3px); -o-transform: translate(3px, 3px); transform: translate(3px, 3px); }
+/* line 77, ../sass/partials/_keypad.scss */
+.pad li:after { content: ""; position: absolute; top: 0; left: 0; right: -5px; bottom: -5px; }
+/* line 85, ../sass/partials/_keypad.scss */
+.pad li:active:after { top: -3px; left: -3px; right: -2px; bottom: -2px; }
 
 /* line 55, ../sass/partials/_normalize.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary { display: block; }
